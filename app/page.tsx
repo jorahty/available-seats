@@ -2,10 +2,10 @@ const names = ['james', 'jimmy', 'jorah'];
 
 export default function Home() {
   return (
-    <div className="max-w-sm mx-auto my-16 bg-zinc-800 p-4 rounded-xl flex gap-4 flex-wrap flex-col items-start">
+    <div className="mx-auto my-16 flex max-w-sm flex-col flex-wrap items-start gap-4 rounded-xl bg-secondary p-4">
       <h1 className="text-3xl font-semibold">Welcome!</h1>
       {names.map((name) => (
-        <button className="bg-blue-500 p-4 rounded-xl font-medium hover:opacity-80 active:bg-white">
+        <button className="rounded-xl bg-blue-500 p-4 font-medium text-white hover:opacity-80 active:bg-white">
           By {name} now!
         </button>
       ))}
