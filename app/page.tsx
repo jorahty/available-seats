@@ -25,7 +25,7 @@ export default async function Home() {
   return (
     <main className="mx-auto my-16 flex max-w-sm flex-col gap-8 p-8">
       {classes.map(({ classCode, availableSeats }) => (
-        <Card className="bg-secondary">
+        <Card key={classCode} className="bg-secondary">
           <CardContent className="flex items-center justify-between p-8 ">
             <h3 className="text-xl font-medium text-muted-foreground">
               {classCode}
