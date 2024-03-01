@@ -30,9 +30,7 @@ export default async function Home() {
             <h3 className="text-xl font-medium text-muted-foreground">
               {classCode}
             </h3>
-            <h1 className="text-4xl font-semibold dark:text-green-500">
-              {availableSeats}
-            </h1>
+            <h1 className="text-4xl font-semibold">{availableSeats}</h1>
           </CardContent>
         </Card>
       ))}
