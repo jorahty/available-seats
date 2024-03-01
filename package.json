@@ -1,5 +1,5 @@
 {
-  "name": "remaining-seats",
+  "name": "available-seats",
   "version": "0.1.0",
   "private": true,
   "scripts": {
